@@ -6,10 +6,10 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy Java source file
-COPY HelloWorld.java .
+COPY HellloWorld.java .
 
 # Compile the Java program
-RUN javac HelloWorld.java
+RUN javac HellloWorld.java
 
 # Run the program
-CMD ["java", "HelloWorld"]
+CMD ["java", "HellloWorld"]
